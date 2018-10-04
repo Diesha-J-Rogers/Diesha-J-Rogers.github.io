@@ -23,435 +23,27 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
-/***/ "./src/app/index.ts":
-/*!**************************!*\
-  !*** ./src/app/index.ts ***!
-  \**************************/
-/*! exports provided: ResumeModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _resume_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./resume.module */ "./src/app/resume.module.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResumeModule", function() { return _resume_module__WEBPACK_IMPORTED_MODULE_0__["ResumeModule"]; });
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/projects/github/index.ts":
-/*!******************************************!*\
-  !*** ./src/app/projects/github/index.ts ***!
-  \******************************************/
-/*! exports provided: GithubModel, GithubRepositoryModel, GithubUserService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _model__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./model */ "./src/app/projects/github/model/index.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubModel", function() { return _model__WEBPACK_IMPORTED_MODULE_0__["GithubModel"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubRepositoryModel", function() { return _model__WEBPACK_IMPORTED_MODULE_0__["GithubRepositoryModel"]; });
-
-/* harmony import */ var _service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./service */ "./src/app/projects/github/service/index.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubUserService", function() { return _service__WEBPACK_IMPORTED_MODULE_1__["GithubUserService"]; });
-
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/projects/github/model/github-repository.model.ts":
-/*!******************************************************************!*\
-  !*** ./src/app/projects/github/model/github-repository.model.ts ***!
-  \******************************************************************/
-/*! exports provided: GithubRepositoryModel */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GithubRepositoryModel", function() { return GithubRepositoryModel; });
-var GithubRepositoryModel = /** @class */ (function () {
-    function GithubRepositoryModel() {
-    }
-    return GithubRepositoryModel;
-}());
-
-// "id": 92627599,
-//     "node_id": "MDEwOlJlcG9zaXRvcnk5MjYyNzU5OQ==",
-//     "name": "guanxi",
-//     "full_name": "trash-80/guanxi",
-//     "private": false,
-//     "owner": {
-//     "login": "trash-80",
-//         "id": 3317774,
-//         "node_id": "MDQ6VXNlcjMzMTc3NzQ=",
-//         "avatar_url": "https://avatars1.githubusercontent.com/u/3317774?v=4",
-//         "gravatar_id": "",
-//         "url": "https://api.github.com/users/trash-80",
-//         "html_url": "https://github.com/trash-80",
-//         "followers_url": "https://api.github.com/users/trash-80/followers",
-//         "following_url": "https://api.github.com/users/trash-80/following{/other_user}",
-//         "gists_url": "https://api.github.com/users/trash-80/gists{/gist_id}",
-//         "starred_url": "https://api.github.com/users/trash-80/starred{/owner}{/repo}",
-//         "subscriptions_url": "https://api.github.com/users/trash-80/subscriptions",
-//         "organizations_url": "https://api.github.com/users/trash-80/orgs",
-//         "repos_url": "https://api.github.com/users/trash-80/repos",
-//         "events_url": "https://api.github.com/users/trash-80/events{/privacy}",
-//         "received_events_url": "https://api.github.com/users/trash-80/received_events",
-//         "type": "User",
-//         "site_admin": false
-// },
-// "html_url": "https://github.com/trash-80/guanxi",
-//     "description": "Moving old guanxi from organization to my personal repository.  It's the version based on QT library and it very outdated.",
-//     "fork": false,
-//     "url": "https://api.github.com/repos/trash-80/guanxi",
-//     "forks_url": "https://api.github.com/repos/trash-80/guanxi/forks",
-//     "keys_url": "https://api.github.com/repos/trash-80/guanxi/keys{/key_id}",
-//     "collaborators_url": "https://api.github.com/repos/trash-80/guanxi/collaborators{/collaborator}",
-//     "teams_url": "https://api.github.com/repos/trash-80/guanxi/teams",
-//     "hooks_url": "https://api.github.com/repos/trash-80/guanxi/hooks",
-//     "issue_events_url": "https://api.github.com/repos/trash-80/guanxi/issues/events{/number}",
-//     "events_url": "https://api.github.com/repos/trash-80/guanxi/events",
-//     "assignees_url": "https://api.github.com/repos/trash-80/guanxi/assignees{/user}",
-//     "branches_url": "https://api.github.com/repos/trash-80/guanxi/branches{/branch}",
-//     "tags_url": "https://api.github.com/repos/trash-80/guanxi/tags",
-//     "blobs_url": "https://api.github.com/repos/trash-80/guanxi/git/blobs{/sha}",
-//     "git_tags_url": "https://api.github.com/repos/trash-80/guanxi/git/tags{/sha}",
-//     "git_refs_url": "https://api.github.com/repos/trash-80/guanxi/git/refs{/sha}",
-//     "trees_url": "https://api.github.com/repos/trash-80/guanxi/git/trees{/sha}",
-//     "statuses_url": "https://api.github.com/repos/trash-80/guanxi/statuses/{sha}",
-//     "languages_url": "https://api.github.com/repos/trash-80/guanxi/languages",
-//     "stargazers_url": "https://api.github.com/repos/trash-80/guanxi/stargazers",
-//     "contributors_url": "https://api.github.com/repos/trash-80/guanxi/contributors",
-//     "subscribers_url": "https://api.github.com/repos/trash-80/guanxi/subscribers",
-//     "subscription_url": "https://api.github.com/repos/trash-80/guanxi/subscription",
-//     "commits_url": "https://api.github.com/repos/trash-80/guanxi/commits{/sha}",
-//     "git_commits_url": "https://api.github.com/repos/trash-80/guanxi/git/commits{/sha}",
-//     "comments_url": "https://api.github.com/repos/trash-80/guanxi/comments{/number}",
-//     "issue_comment_url": "https://api.github.com/repos/trash-80/guanxi/issues/comments{/number}",
-//     "contents_url": "https://api.github.com/repos/trash-80/guanxi/contents/{+path}",
-//     "compare_url": "https://api.github.com/repos/trash-80/guanxi/compare/{base}...{head}",
-//     "merges_url": "https://api.github.com/repos/trash-80/guanxi/merges",
-//     "archive_url": "https://api.github.com/repos/trash-80/guanxi/{archive_format}{/ref}",
-//     "downloads_url": "https://api.github.com/repos/trash-80/guanxi/downloads",
-//     "issues_url": "https://api.github.com/repos/trash-80/guanxi/issues{/number}",
-//     "pulls_url": "https://api.github.com/repos/trash-80/guanxi/pulls{/number}",
-//     "milestones_url": "https://api.github.com/repos/trash-80/guanxi/milestones{/number}",
-//     "notifications_url": "https://api.github.com/repos/trash-80/guanxi/notifications{?since,all,participating}",
-//     "labels_url": "https://api.github.com/repos/trash-80/guanxi/labels{/name}",
-//     "releases_url": "https://api.github.com/repos/trash-80/guanxi/releases{/id}",
-//     "deployments_url": "https://api.github.com/repos/trash-80/guanxi/deployments",
-//     "created_at": "2017-05-27T22:32:49Z",
-//     "updated_at": "2017-05-27T22:32:49Z",
-//     "pushed_at": "2017-05-27T22:32:49Z",
-//     "git_url": "git://github.com/trash-80/guanxi.git",
-//     "ssh_url": "git@github.com:trash-80/guanxi.git",
-//     "clone_url": "https://github.com/trash-80/guanxi.git",
-//     "svn_url": "https://github.com/trash-80/guanxi",
-//     "homepage": null,
-//     "size": 0,
-//     "stargazers_count": 0,
-//     "watchers_count": 0,
-//     "language": null,
-//     "has_issues": true,
-//     "has_projects": true,
-//     "has_downloads": true,
-//     "has_wiki": true,
-//     "has_pages": false,
-//     "forks_count": 0,
-//     "mirror_url": null,
-//     "archived": false,
-//     "open_issues_count": 0,
-//     "license": null,
-//     "forks": 0,
-//     "open_issues": 0,
-//     "watchers": 0,
-//     "default_branch": "master"
-
-
-/***/ }),
-
-/***/ "./src/app/projects/github/model/github.model.ts":
-/*!*******************************************************!*\
-  !*** ./src/app/projects/github/model/github.model.ts ***!
-  \*******************************************************/
-/*! exports provided: GithubModel */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GithubModel", function() { return GithubModel; });
-var GithubModel = /** @class */ (function () {
-    function GithubModel() {
-    }
-    return GithubModel;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/projects/github/model/index.ts":
-/*!************************************************!*\
-  !*** ./src/app/projects/github/model/index.ts ***!
-  \************************************************/
-/*! exports provided: GithubRepositoryModel, GithubModel */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _github_repository_model__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./github-repository.model */ "./src/app/projects/github/model/github-repository.model.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubRepositoryModel", function() { return _github_repository_model__WEBPACK_IMPORTED_MODULE_0__["GithubRepositoryModel"]; });
-
-/* harmony import */ var _github_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./github.model */ "./src/app/projects/github/model/github.model.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubModel", function() { return _github_model__WEBPACK_IMPORTED_MODULE_1__["GithubModel"]; });
-
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/projects/github/service/github-user.service.ts":
-/*!****************************************************************!*\
-  !*** ./src/app/projects/github/service/github-user.service.ts ***!
-  \****************************************************************/
-/*! exports provided: GithubUserService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GithubUserService", function() { return GithubUserService; });
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var GithubUserService = /** @class */ (function () {
-    function GithubUserService(http) {
-        this.http = http;
-        this.githubAPI = 'https://api.github.com';
-    }
-    GithubUserService.prototype.getForUser = function (user) {
-        var me = this;
-        var url = this.githubAPI.concat("/users/" + user + "/repos?per_page=100");
-        return me.http.jsonp(url, 'callback');
-    };
-    GithubUserService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
-        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"]])
-    ], GithubUserService);
-    return GithubUserService;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/projects/github/service/index.ts":
-/*!**************************************************!*\
-  !*** ./src/app/projects/github/service/index.ts ***!
-  \**************************************************/
-/*! exports provided: GithubUserService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _github_user_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./github-user.service */ "./src/app/projects/github/service/github-user.service.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubUserService", function() { return _github_user_service__WEBPACK_IMPORTED_MODULE_0__["GithubUserService"]; });
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/projects/yaml/index.ts":
-/*!****************************************!*\
-  !*** ./src/app/projects/yaml/index.ts ***!
-  \****************************************/
-/*! exports provided: YamlService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _service_yaml_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./service/yaml.service */ "./src/app/projects/yaml/service/yaml.service.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "YamlService", function() { return _service_yaml_service__WEBPACK_IMPORTED_MODULE_0__["YamlService"]; });
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/projects/yaml/service/yaml-load.js":
-/*!****************************************************!*\
-  !*** ./src/app/projects/yaml/service/yaml-load.js ***!
-  \****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var JSYaml = __webpack_require__(/*! js-yaml */ "./node_modules/js-yaml/index.js");
-
-/* harmony default export */ __webpack_exports__["default"] = (JSYaml);
-
-
-/***/ }),
-
-/***/ "./src/app/projects/yaml/service/yaml.service.ts":
-/*!*******************************************************!*\
-  !*** ./src/app/projects/yaml/service/yaml.service.ts ***!
-  \*******************************************************/
-/*! exports provided: YamlService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "YamlService", function() { return YamlService; });
-/* harmony import */ var _yaml_load__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./yaml-load */ "./src/app/projects/yaml/service/yaml-load.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var YamlService = /** @class */ (function () {
-    function YamlService(http) {
-        this.http = http;
-    }
-    YamlService.prototype.getGetConfiguration = function (resumeFile) {
-        var me = this;
-        var jsyaml = _yaml_load__WEBPACK_IMPORTED_MODULE_0__["default"];
-        return me.http.get(resumeFile, { responseType: 'text' })
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (response) {
-            return jsyaml.safeLoad(response);
-        }));
-    };
-    YamlService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Injectable"])(),
-        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
-    ], YamlService);
-    return YamlService;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/resume.module.ts":
-/*!**********************************!*\
-  !*** ./src/app/resume.module.ts ***!
-  \**********************************/
-/*! exports provided: ResumeModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeModule", function() { return ResumeModule; });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _resume__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./resume */ "./src/app/resume/index.ts");
-/* harmony import */ var _projects_yaml__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./projects/yaml */ "./src/app/projects/yaml/index.ts");
-/* harmony import */ var _projects_github__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./projects/github */ "./src/app/projects/github/index.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-
-var ResumeModule = /** @class */ (function () {
-    function ResumeModule() {
-    }
-    ResumeModule = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            declarations: [
-                _resume__WEBPACK_IMPORTED_MODULE_3__["ResumeComponent"]
-            ],
-            imports: [
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientJsonpModule"]
-            ],
-            providers: [
-                _projects_yaml__WEBPACK_IMPORTED_MODULE_4__["YamlService"],
-                _projects_github__WEBPACK_IMPORTED_MODULE_5__["GithubUserService"]
-            ],
-            bootstrap: [_resume__WEBPACK_IMPORTED_MODULE_3__["ResumeComponent"]]
-        })
-    ], ResumeModule);
-    return ResumeModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/resume/index.ts":
-/*!*********************************!*\
-  !*** ./src/app/resume/index.ts ***!
-  \*********************************/
+/***/ "./src/app/resume/component/index.ts":
+/*!*******************************************!*\
+  !*** ./src/app/resume/component/index.ts ***!
+  \*******************************************/
 /*! exports provided: ResumeComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _web__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./web */ "./src/app/resume/web/index.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return _web__WEBPACK_IMPORTED_MODULE_0__["ResumeComponent"]; });
+/* harmony import */ var _src_resume_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/resume.component */ "./src/app/resume/component/src/resume.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return _src_resume_component__WEBPACK_IMPORTED_MODULE_0__["ResumeComponent"]; });
 
 
 
 
 /***/ }),
 
-/***/ "./src/app/resume/web/index.ts":
-/*!*************************************!*\
-  !*** ./src/app/resume/web/index.ts ***!
-  \*************************************/
-/*! exports provided: ResumeComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _resume_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./resume.component */ "./src/app/resume/web/resume.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return _resume_component__WEBPACK_IMPORTED_MODULE_0__["ResumeComponent"]; });
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/resume/web/resume.component.css":
-/*!*************************************************!*\
-  !*** ./src/app/resume/web/resume.component.css ***!
-  \*************************************************/
+/***/ "./src/app/resume/component/src/resume.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/resume/component/src/resume.component.css ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -459,10 +51,10 @@ module.exports = "/*!\n * Bootstrap v3.3.7 (http://getbootstrap.com)\n * Copyrig
 
 /***/ }),
 
-/***/ "./src/app/resume/web/resume.component.html":
-/*!**************************************************!*\
-  !*** ./src/app/resume/web/resume.component.html ***!
-  \**************************************************/
+/***/ "./src/app/resume/component/src/resume.component.html":
+/*!************************************************************!*\
+  !*** ./src/app/resume/component/src/resume.component.html ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -470,10 +62,10 @@ module.exports = "<div *ngIf=\"configurationLoaded | async\" class=\"body\">\n  
 
 /***/ }),
 
-/***/ "./src/app/resume/web/resume.component.ts":
-/*!************************************************!*\
-  !*** ./src/app/resume/web/resume.component.ts ***!
-  \************************************************/
+/***/ "./src/app/resume/component/src/resume.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/resume/component/src/resume.component.ts ***!
+  \**********************************************************/
 /*! exports provided: ResumeComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -481,8 +73,8 @@ module.exports = "<div *ngIf=\"configurationLoaded | async\" class=\"body\">\n  
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return ResumeComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _projects_yaml__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../projects/yaml */ "./src/app/projects/yaml/index.ts");
-/* harmony import */ var _projects_github__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../projects/github */ "./src/app/projects/github/index.ts");
+/* harmony import */ var _trash80_yaml__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @trash80/yaml */ "./node_modules/@trash80/yaml/index.js");
+/* harmony import */ var _trash80_github__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @trash80/github */ "./node_modules/@trash80/github/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -506,7 +98,7 @@ var ResumeComponent = /** @class */ (function () {
         this.yamlService.getGetConfiguration("./assets/resume2.yml").subscribe(function (data) {
             me.data = data;
             if (data['github']) {
-                me.github = new _projects_github__WEBPACK_IMPORTED_MODULE_2__["GithubModel"]();
+                me.github = new _trash80_github__WEBPACK_IMPORTED_MODULE_2__["GithubModel"]();
                 me.github.user = data['github']['user'];
                 _this.githubUserService.getForUser(data['github']['user']).subscribe(function (response) {
                     me.github.repositories = response['data'].filter(function (repo) {
@@ -525,13 +117,85 @@ var ResumeComponent = /** @class */ (function () {
     ResumeComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-root',
-            template: __webpack_require__(/*! ./resume.component.html */ "./src/app/resume/web/resume.component.html"),
-            styles: [__webpack_require__(/*! ./resume.component.css */ "./src/app/resume/web/resume.component.css")]
+            template: __webpack_require__(/*! ./resume.component.html */ "./src/app/resume/component/src/resume.component.html"),
+            styles: [__webpack_require__(/*! ./resume.component.css */ "./src/app/resume/component/src/resume.component.css")]
         }),
-        __metadata("design:paramtypes", [_projects_yaml__WEBPACK_IMPORTED_MODULE_1__["YamlService"],
-            _projects_github__WEBPACK_IMPORTED_MODULE_2__["GithubUserService"]])
+        __metadata("design:paramtypes", [_trash80_yaml__WEBPACK_IMPORTED_MODULE_1__["YamlService"],
+            _trash80_github__WEBPACK_IMPORTED_MODULE_2__["GithubUserService"]])
     ], ResumeComponent);
     return ResumeComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/resume/module/index.ts":
+/*!****************************************!*\
+  !*** ./src/app/resume/module/index.ts ***!
+  \****************************************/
+/*! exports provided: ResumeModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _src_resume_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/resume.module */ "./src/app/resume/module/src/resume.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResumeModule", function() { return _src_resume_module__WEBPACK_IMPORTED_MODULE_0__["ResumeModule"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/resume/module/src/resume.module.ts":
+/*!****************************************************!*\
+  !*** ./src/app/resume/module/src/resume.module.ts ***!
+  \****************************************************/
+/*! exports provided: ResumeModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeModule", function() { return ResumeModule; });
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../component */ "./src/app/resume/component/index.ts");
+/* harmony import */ var _trash80_yaml__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @trash80/yaml */ "./node_modules/@trash80/yaml/index.js");
+/* harmony import */ var _trash80_github__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @trash80/github */ "./node_modules/@trash80/github/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var ResumeModule = /** @class */ (function () {
+    function ResumeModule() {
+    }
+    ResumeModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            declarations: [
+                _component__WEBPACK_IMPORTED_MODULE_3__["ResumeComponent"]
+            ],
+            imports: [
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientJsonpModule"]
+            ],
+            providers: [
+                _trash80_yaml__WEBPACK_IMPORTED_MODULE_4__["YamlService"],
+                _trash80_github__WEBPACK_IMPORTED_MODULE_5__["GithubUserService"]
+            ],
+            bootstrap: [_component__WEBPACK_IMPORTED_MODULE_3__["ResumeComponent"]]
+        })
+    ], ResumeModule);
+    return ResumeModule;
 }());
 
 
@@ -570,7 +234,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app */ "./src/app/index.ts");
+/* harmony import */ var _app_resume_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/resume/module */ "./src/app/resume/module/index.ts");
 
 
 
@@ -579,7 +243,7 @@ if (_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].produc
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
 }
 Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])()
-    .bootstrapModule(_app__WEBPACK_IMPORTED_MODULE_3__["ResumeModule"])
+    .bootstrapModule(_app_resume_module__WEBPACK_IMPORTED_MODULE_3__["ResumeModule"])
     .catch(function (err) { return console.error(err); });
 
 

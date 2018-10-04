@@ -54895,6 +54895,378 @@ var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Version"]('6.1.9')
 
 /***/ }),
 
+/***/ "./node_modules/@trash80/github/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/@trash80/github/index.js ***!
+  \***********************************************/
+/*! exports provided: GithubModel, GithubRepositoryModel, GithubUserService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _public_api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./public_api */ "./node_modules/@trash80/github/public_api.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubModel", function() { return _public_api__WEBPACK_IMPORTED_MODULE_0__["GithubModel"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubRepositoryModel", function() { return _public_api__WEBPACK_IMPORTED_MODULE_0__["GithubRepositoryModel"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubUserService", function() { return _public_api__WEBPACK_IMPORTED_MODULE_0__["GithubUserService"]; });
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/github/model/index.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@trash80/github/model/index.js ***!
+  \*****************************************************/
+/*! exports provided: GithubRepositoryModel, GithubModel */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _src_github_repository_model__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/github-repository.model */ "./node_modules/@trash80/github/model/src/github-repository.model.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubRepositoryModel", function() { return _src_github_repository_model__WEBPACK_IMPORTED_MODULE_0__["GithubRepositoryModel"]; });
+
+/* harmony import */ var _src_github_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/github.model */ "./node_modules/@trash80/github/model/src/github.model.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubModel", function() { return _src_github_model__WEBPACK_IMPORTED_MODULE_1__["GithubModel"]; });
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/github/model/src/github-repository.model.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@trash80/github/model/src/github-repository.model.js ***!
+  \***************************************************************************/
+/*! exports provided: GithubRepositoryModel */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GithubRepositoryModel", function() { return GithubRepositoryModel; });
+var GithubRepositoryModel = /** @class */ (function () {
+    function GithubRepositoryModel() {
+    }
+    return GithubRepositoryModel;
+}());
+
+// "id": 92627599,
+//     "node_id": "MDEwOlJlcG9zaXRvcnk5MjYyNzU5OQ==",
+//     "name": "guanxi",
+//     "full_name": "trash-80/guanxi",
+//     "private": false,
+//     "owner": {
+//     "login": "trash-80",
+//         "id": 3317774,
+//         "node_id": "MDQ6VXNlcjMzMTc3NzQ=",
+//         "avatar_url": "https://avatars1.githubusercontent.com/u/3317774?v=4",
+//         "gravatar_id": "",
+//         "url": "https://api.github.com/users/trash-80",
+//         "html_url": "https://github.com/trash-80",
+//         "followers_url": "https://api.github.com/users/trash-80/followers",
+//         "following_url": "https://api.github.com/users/trash-80/following{/other_user}",
+//         "gists_url": "https://api.github.com/users/trash-80/gists{/gist_id}",
+//         "starred_url": "https://api.github.com/users/trash-80/starred{/owner}{/repo}",
+//         "subscriptions_url": "https://api.github.com/users/trash-80/subscriptions",
+//         "organizations_url": "https://api.github.com/users/trash-80/orgs",
+//         "repos_url": "https://api.github.com/users/trash-80/repos",
+//         "events_url": "https://api.github.com/users/trash-80/events{/privacy}",
+//         "received_events_url": "https://api.github.com/users/trash-80/received_events",
+//         "type": "User",
+//         "site_admin": false
+// },
+// "html_url": "https://github.com/trash-80/guanxi",
+//     "description": "Moving old guanxi from organization to my personal repository.  It's the version based on QT library and it very outdated.",
+//     "fork": false,
+//     "url": "https://api.github.com/repos/trash-80/guanxi",
+//     "forks_url": "https://api.github.com/repos/trash-80/guanxi/forks",
+//     "keys_url": "https://api.github.com/repos/trash-80/guanxi/keys{/key_id}",
+//     "collaborators_url": "https://api.github.com/repos/trash-80/guanxi/collaborators{/collaborator}",
+//     "teams_url": "https://api.github.com/repos/trash-80/guanxi/teams",
+//     "hooks_url": "https://api.github.com/repos/trash-80/guanxi/hooks",
+//     "issue_events_url": "https://api.github.com/repos/trash-80/guanxi/issues/events{/number}",
+//     "events_url": "https://api.github.com/repos/trash-80/guanxi/events",
+//     "assignees_url": "https://api.github.com/repos/trash-80/guanxi/assignees{/user}",
+//     "branches_url": "https://api.github.com/repos/trash-80/guanxi/branches{/branch}",
+//     "tags_url": "https://api.github.com/repos/trash-80/guanxi/tags",
+//     "blobs_url": "https://api.github.com/repos/trash-80/guanxi/git/blobs{/sha}",
+//     "git_tags_url": "https://api.github.com/repos/trash-80/guanxi/git/tags{/sha}",
+//     "git_refs_url": "https://api.github.com/repos/trash-80/guanxi/git/refs{/sha}",
+//     "trees_url": "https://api.github.com/repos/trash-80/guanxi/git/trees{/sha}",
+//     "statuses_url": "https://api.github.com/repos/trash-80/guanxi/statuses/{sha}",
+//     "languages_url": "https://api.github.com/repos/trash-80/guanxi/languages",
+//     "stargazers_url": "https://api.github.com/repos/trash-80/guanxi/stargazers",
+//     "contributors_url": "https://api.github.com/repos/trash-80/guanxi/contributors",
+//     "subscribers_url": "https://api.github.com/repos/trash-80/guanxi/subscribers",
+//     "subscription_url": "https://api.github.com/repos/trash-80/guanxi/subscription",
+//     "commits_url": "https://api.github.com/repos/trash-80/guanxi/commits{/sha}",
+//     "git_commits_url": "https://api.github.com/repos/trash-80/guanxi/git/commits{/sha}",
+//     "comments_url": "https://api.github.com/repos/trash-80/guanxi/comments{/number}",
+//     "issue_comment_url": "https://api.github.com/repos/trash-80/guanxi/issues/comments{/number}",
+//     "contents_url": "https://api.github.com/repos/trash-80/guanxi/contents/{+path}",
+//     "compare_url": "https://api.github.com/repos/trash-80/guanxi/compare/{base}...{head}",
+//     "merges_url": "https://api.github.com/repos/trash-80/guanxi/merges",
+//     "archive_url": "https://api.github.com/repos/trash-80/guanxi/{archive_format}{/ref}",
+//     "downloads_url": "https://api.github.com/repos/trash-80/guanxi/downloads",
+//     "issues_url": "https://api.github.com/repos/trash-80/guanxi/issues{/number}",
+//     "pulls_url": "https://api.github.com/repos/trash-80/guanxi/pulls{/number}",
+//     "milestones_url": "https://api.github.com/repos/trash-80/guanxi/milestones{/number}",
+//     "notifications_url": "https://api.github.com/repos/trash-80/guanxi/notifications{?since,all,participating}",
+//     "labels_url": "https://api.github.com/repos/trash-80/guanxi/labels{/name}",
+//     "releases_url": "https://api.github.com/repos/trash-80/guanxi/releases{/id}",
+//     "deployments_url": "https://api.github.com/repos/trash-80/guanxi/deployments",
+//     "created_at": "2017-05-27T22:32:49Z",
+//     "updated_at": "2017-05-27T22:32:49Z",
+//     "pushed_at": "2017-05-27T22:32:49Z",
+//     "git_url": "git://github.com/trash-80/guanxi.git",
+//     "ssh_url": "git@github.com:trash-80/guanxi.git",
+//     "clone_url": "https://github.com/trash-80/guanxi.git",
+//     "svn_url": "https://github.com/trash-80/guanxi",
+//     "homepage": null,
+//     "size": 0,
+//     "stargazers_count": 0,
+//     "watchers_count": 0,
+//     "language": null,
+//     "has_issues": true,
+//     "has_projects": true,
+//     "has_downloads": true,
+//     "has_wiki": true,
+//     "has_pages": false,
+//     "forks_count": 0,
+//     "mirror_url": null,
+//     "archived": false,
+//     "open_issues_count": 0,
+//     "license": null,
+//     "forks": 0,
+//     "open_issues": 0,
+//     "watchers": 0,
+//     "default_branch": "master"
+//# sourceMappingURL=github-repository.model.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/github/model/src/github.model.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@trash80/github/model/src/github.model.js ***!
+  \****************************************************************/
+/*! exports provided: GithubModel */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GithubModel", function() { return GithubModel; });
+var GithubModel = /** @class */ (function () {
+    function GithubModel() {
+    }
+    return GithubModel;
+}());
+
+//# sourceMappingURL=github.model.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/github/public_api.js":
+/*!****************************************************!*\
+  !*** ./node_modules/@trash80/github/public_api.js ***!
+  \****************************************************/
+/*! exports provided: GithubModel, GithubRepositoryModel, GithubUserService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _model__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./model */ "./node_modules/@trash80/github/model/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubModel", function() { return _model__WEBPACK_IMPORTED_MODULE_0__["GithubModel"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubRepositoryModel", function() { return _model__WEBPACK_IMPORTED_MODULE_0__["GithubRepositoryModel"]; });
+
+/* harmony import */ var _service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./service */ "./node_modules/@trash80/github/service/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubUserService", function() { return _service__WEBPACK_IMPORTED_MODULE_1__["GithubUserService"]; });
+
+
+
+//# sourceMappingURL=public_api.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/github/service/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@trash80/github/service/index.js ***!
+  \*******************************************************/
+/*! exports provided: GithubUserService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _src_github_user_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/github-user.service */ "./node_modules/@trash80/github/service/src/github-user.service.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GithubUserService", function() { return _src_github_user_service__WEBPACK_IMPORTED_MODULE_0__["GithubUserService"]; });
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/github/service/src/github-user.service.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@trash80/github/service/src/github-user.service.js ***!
+  \*************************************************************************/
+/*! exports provided: GithubUserService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GithubUserService", function() { return GithubUserService; });
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var GithubUserService = /** @class */ (function () {
+    function GithubUserService(http) {
+        this.http = http;
+        this.githubAPI = 'https://api.github.com';
+    }
+    GithubUserService.prototype.getForUser = function (user) {
+        var url = this.githubAPI.concat("/users/" + user + "/repos?per_page=100");
+        return this.http.jsonp(url, 'callback');
+    };
+    GithubUserService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"]])
+    ], GithubUserService);
+    return GithubUserService;
+}());
+
+//# sourceMappingURL=github-user.service.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/yaml/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/@trash80/yaml/index.js ***!
+  \*********************************************/
+/*! exports provided: YamlService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _public_api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./public_api */ "./node_modules/@trash80/yaml/public_api.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "YamlService", function() { return _public_api__WEBPACK_IMPORTED_MODULE_0__["YamlService"]; });
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/yaml/public_api.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@trash80/yaml/public_api.js ***!
+  \**************************************************/
+/*! exports provided: YamlService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./service */ "./node_modules/@trash80/yaml/service/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "YamlService", function() { return _service__WEBPACK_IMPORTED_MODULE_0__["YamlService"]; });
+
+
+//# sourceMappingURL=public_api.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/yaml/service/index.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@trash80/yaml/service/index.js ***!
+  \*****************************************************/
+/*! exports provided: YamlService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _src_yaml_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/yaml.service */ "./node_modules/@trash80/yaml/service/src/yaml.service.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "YamlService", function() { return _src_yaml_service__WEBPACK_IMPORTED_MODULE_0__["YamlService"]; });
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/yaml/service/src/yaml-load.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/@trash80/yaml/service/src/yaml-load.js ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var JSYaml = __webpack_require__(/*! js-yaml */ "./node_modules/js-yaml/index.js");
+/* harmony default export */ __webpack_exports__["default"] = (JSYaml);
+//# sourceMappingURL=yaml-load.js.map
+
+/***/ }),
+
+/***/ "./node_modules/@trash80/yaml/service/src/yaml.service.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@trash80/yaml/service/src/yaml.service.js ***!
+  \****************************************************************/
+/*! exports provided: YamlService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "YamlService", function() { return YamlService; });
+/* harmony import */ var _yaml_load__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./yaml-load */ "./node_modules/@trash80/yaml/service/src/yaml-load.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var YamlService = /** @class */ (function () {
+    function YamlService(http) {
+        this.http = http;
+    }
+    YamlService.prototype.getGetConfiguration = function (resumeFile) {
+        var me = this;
+        var jsyaml = _yaml_load__WEBPACK_IMPORTED_MODULE_0__["default"];
+        return me.http.get(resumeFile, { responseType: 'text' })
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (response) {
+            return jsyaml.safeLoad(response);
+        }));
+    };
+    YamlService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Injectable"])(),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
+    ], YamlService);
+    return YamlService;
+}());
+
+//# sourceMappingURL=yaml.service.js.map
+
+/***/ }),
+
 /***/ "./node_modules/base64-js/index.js":
 /*!*****************************************!*\
   !*** ./node_modules/base64-js/index.js ***!
